@@ -1,0 +1,11 @@
+function f(s,a,b,c,d,e){
+	console.log(this.name,s,a,b,c,d,e); 
+	return this.name+s
+}
+var obj={
+	name:2
+}
+function f2(){
+	return f.apply(obj,arguments)
+}
+console.log(f2(3,8,11,13));
