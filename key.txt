@@ -1,0 +1,2 @@
+MapJSApi   bfaef64edf1d022ff8b56a4345a12328
+mapAPI     811288044ac0a345112c7083cf6f4c12
